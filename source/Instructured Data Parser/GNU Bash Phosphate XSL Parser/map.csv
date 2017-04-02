@@ -1,0 +1,157 @@
+Country,Region(IFA),Region(OCP)
+Algeria,Africa,Africa
+Angola,Africa,Africa
+Benin,Africa,Africa
+Burkina Faso,Africa,Africa
+Cameroon,Africa,Africa
+Congo. Rep,Africa,Africa
+Côte d'Ivoire,Africa,Africa
+Djibouti,Africa,Africa
+DRC,Africa,Africa
+Egypt,Africa,Africa
+Erithrea,Africa,Africa
+Ethiopia,Africa,Africa
+Gabon,Africa,Africa
+Ghana,Africa,Africa
+Kenya,Africa,Africa
+Liberia,Africa,Africa
+Libya,Africa,Africa
+Madagascar,Africa,Africa
+Malawi,Africa,Africa
+Mali,Africa,Africa
+Mauritania,Africa,Africa
+Mauritius,Africa,Africa
+Mozambique,Africa,Africa
+Namibia,Africa,Africa
+Nigeria,Africa,Africa
+Senegal,Africa,Africa
+Sierra Leone,Africa,Africa
+South Africa,Africa,Africa
+Sudan,Africa,Africa
+Swaziland,Africa,Africa
+Tanzania,Africa,Africa
+Togo,Africa,Africa
+Tunisia,Africa,Africa
+Various Africa,Africa,Africa
+Zambia,Africa,Africa
+Zimbabwe,Africa,Africa
+China,East Asia,East Asia
+Hong-Kong,East Asia,East Asia
+Indonesia,East Asia,East Asia
+Japan,East Asia,East Asia
+Korea DPR,East Asia,East Asia
+Korea Rep.,East Asia,East Asia
+Malaysia,East Asia,East Asia
+Myanmar,East Asia,East Asia
+Philippines,East Asia,East Asia
+Singapore,East Asia,East Asia
+"Taiwan, China",East Asia,East Asia
+Thailand,East Asia,East Asia
+Various East Asia,East Asia,East Asia
+Vietnam,East Asia,East Asia
+Argentina,Latin America,Latin America
+Bahamas,Latin America,Latin America
+Belize,Latin America,Latin America
+Bolivia,Latin America,Latin America
+Brazil,Latin America,Latin America
+Chile,Latin America,Latin America
+Colombia,Latin America,Latin America
+Costa Rica,Latin America,Latin America
+Cuba,Latin America,Latin America
+Dominican Rep.,Latin America,Latin America
+Ecuador,Latin America,Latin America
+El Salvador,Latin America,Latin America
+Guadeloupe,Latin America,Latin America
+Guatemala,Latin America,Latin America
+Guyana,Latin America,Latin America
+Honduras,Latin America,Latin America
+Jamaica,Latin America,Latin America
+Martinique,Latin America,Latin America
+Nicaragua,Latin America,Latin America
+Panama,Latin America,Latin America
+Paraguay,Latin America,Latin America
+Peru,Latin America,Latin America
+Puerto Rico,Latin America,Latin America
+Surinam,Latin America,Latin America
+Trinidad and Tobago,Latin America,Latin America
+Uruguay,Latin America,Latin America
+Various Latin America,Latin America,Latin America
+Venezuela,Latin America,Latin America
+Morocco,Africa,Marché Local
+Canada,North America,North America
+Mexico,Latin America,North America
+USA,North America,North America
+Various North America,North America,North America
+Armenia,E. Europe & C. Asia,North Europe & FSU
+Austria,West Europe,North Europe & FSU
+Azerbaijan,E. Europe & C. Asia,North Europe & FSU
+Belarus,E. Europe & C. Asia,North Europe & FSU
+Belgium,West Europe,North Europe & FSU
+Denmark,West Europe,North Europe & FSU
+Estonia,E. Europe & C. Asia,North Europe & FSU
+Finland,West Europe,North Europe & FSU
+France,West Europe,North Europe & FSU
+Germany,West Europe,North Europe & FSU
+Ireland,West Europe,North Europe & FSU
+Kazakhstan,E. Europe & C. Asia,North Europe & FSU
+Kyrgyzstan,E. Europe & C. Asia,North Europe & FSU
+Latvia,E. Europe & C. Asia,North Europe & FSU
+Lithuania,E. Europe & C. Asia,North Europe & FSU
+Luxembourg,West Europe,North Europe & FSU
+Moldavia,E. Europe & C. Asia,North Europe & FSU
+Netherlands,West Europe,North Europe & FSU
+Norway,West Europe,North Europe & FSU
+Russia,E. Europe & C. Asia,North Europe & FSU
+Sweden,West Europe,North Europe & FSU
+Switzerland,West Europe,North Europe & FSU
+Turkmenistan,E. Europe & C. Asia,North Europe & FSU
+Ukraine,E. Europe & C. Asia,North Europe & FSU
+United Kingdom,West Europe,North Europe & FSU
+Uzbekistan,E. Europe & C. Asia,North Europe & FSU
+Tajikistan,E. Europe & C. Asia,North Europe & FSU
+Various E. Europe & C. Asia,E. Europe & C. Asia,North Europe & FSU
+Various West Europe,West Europe,North Europe & FSU
+Australia,Oceania,Oceania
+Fiji,Oceania,Oceania
+New Zealand,Oceania,Oceania
+Papua New Guinea,Oceania,Oceania
+Various Oceania,Oceania,Oceania
+Various Others,Others,Others
+Albania,Central Europe,South & Central Europe
+Bulgaria,Central Europe,South & Central Europe
+Croatia,Central Europe,South & Central Europe
+Czech. Rep.,Central Europe,South & Central Europe
+Greece,West Europe,South & Central Europe
+Hungary,Central Europe,South & Central Europe
+Italy,West Europe,South & Central Europe
+Poland,Central Europe,South & Central Europe
+Portugal,West Europe,South & Central Europe
+Romania,Central Europe,South & Central Europe
+Serbia and Montenegro,Central Europe,South & Central Europe
+Slovakia,Central Europe,South & Central Europe
+Slovenia,Central Europe,South & Central Europe
+Spain,West Europe,South & Central Europe
+Turkey,West Asia (M. East),South & Central Europe
+Various Central Europe,Central Europe,South & Central Europe
+Cyprus,West Europe,South & Central Europe
+"Abu Dhabi, UAE",West Asia (M. East),South Asia & Middle East
+Afghanistan,West Asia (M. East),South Asia & Middle East
+Bangladesh,South Asia,South Asia & Middle East
+"Dubai, UAE",West Asia (M. East),South Asia & Middle East
+India,South Asia,South Asia & Middle East
+Iran,West Asia (M. East),South Asia & Middle East
+Iraq,West Asia (M. East),South Asia & Middle East
+Israel,West Asia (M. East),South Asia & Middle East
+Jordan,West Asia (M. East),South Asia & Middle East
+Kuwait,West Asia (M. East),South Asia & Middle East
+Lebanon,West Asia (M. East),South Asia & Middle East
+Nepal,South Asia,South Asia & Middle East
+Oman,West Asia (M. East),South Asia & Middle East
+Pakistan,South Asia,South Asia & Middle East
+Qatar,West Asia (M. East),South Asia & Middle East
+Saudi Arabia,West Asia (M. East),South Asia & Middle East
+Sri Lanka,South Asia,South Asia & Middle East
+Syria,West Asia (M. East),South Asia & Middle East
+Various South Asia,South Asia,South Asia & Middle East
+Various West Asia (M. East),West Asia (M. East),South Asia & Middle East
+Yemen,West Asia (M. East),South Asia & Middle East

@@ -1,0 +1,896 @@
+@import url( base.css );
+@import url( fonts.css );
+body {
+	color: rgb(86, 86, 86); font-family: arial; font-size: 12px;
+}
+a {
+	color: rgb(86, 86, 86);
+}
+.wrapper {
+	margin: 0px auto; width: 1004px; position: relative;
+}
+.MessageBoxPopupBackground {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 500001; opacity: 0.4; background-color: rgb(153, 153, 153); -moz-opacity: 0.4;
+}
+.popupHeader {
+	padding: 5px 0px 0px; width: 420px; height: 25px; color: rgb(255, 255, 255); font-family: tahoma; font-weight: bold; text-decoration: none; background-repeat: repeat-x; background-color: rgb(200, 210, 0);
+}
+.popupHeader span {
+	color: rgb(255, 255, 255); line-height: 15px; text-decoration: none; margin-left: 10px; float: left;
+}
+.popupHeader a {
+	color: rgb(255, 255, 255) !important; line-height: 15px; text-decoration: none !important; margin-right: 10px; float: right;
+}
+.popup_button {
+	margin: 0px 0px 0px 5px; padding: 3px 15px; width: auto; color: rgb(255, 255, 255) !important; line-height: 22px; font-family: arial, Geneva, sans-serif; font-size: 12px; font-weight: normal; text-decoration: none !important; float: left; background-repeat: repeat-x; background-color: green;
+}
+.headerTop {
+	background: 0px 0px rgb(86, 86, 86); width: 120px; height: 26px; padding-top: 4px; vertical-align: top; display: inline-block;
+}
+.headerTop .content {
+	margin: 0px auto; width: 1004px; text-align: right; color: white; padding-top: 5px;
+}
+.headerTop .profil {
+	position: relative;
+}
+.headerTop .menuTop {
+	position: relative;
+}
+.headerTop .profil {
+	display: block;
+}
+.headerTop .menuTop {
+	display: block;
+}
+.headerTop .menuTop li {
+	display: block;
+}
+.headerTop .menuTop li.paramLink ul {
+	background: rgb(120, 120, 120); display: none; z-index: 9999999;
+}
+.headerTop .menuTop ul li {
+	padding-bottom: 3px; display: inline-block; position: relative;
+}
+.headerTop .menuTop ul li:hover ul {
+	top: 26px; right: -8px; display: block; position: absolute;
+}
+.headerTop .menuTop li a {
+	color: rgb(200, 210, 0); display: block;
+}
+.headerTop .menuTop li li {
+	margin: 5px 30px; display: block;
+}
+.headerTop .menuTop li.paramLink > a {
+	height: 30px; text-transform: uppercase; line-height: 14px; padding-right: 9px; padding-left: 10px; font-weight: bold; margin-top: 4px; margin-left: 0px; vertical-align: top;
+}
+.headerTop .menuTop li.logoutLink a {
+	background: url("../images/ico-logout.png") no-repeat 10px; border-left-color: rgb(200, 210, 0); border-left-width: 1px; border-left-style: solid;
+}
+.header {
+	margin: 0px auto; height: 197px; display: block; position: relative; z-index: 1;
+}
+.header .logo {
+	margin: 0px; left: 0px; top: 12px; position: absolute;
+}
+.menuprincipal_app {
+	top: 5px; font-size: 13px; position: absolute; z-index: 2;
+}
+.menuprincipal_app ul {
+	position: relative;
+}
+.menuprincipal_app > ul > li > ul > li {
+	border-bottom-color: yellow; border-bottom-width: 1px; border-bottom-style: dotted; cursor: pointer;
+}
+.menuprincipal_app ul li ul {
+	background: rgb(200, 210, 0); left: 10px; top: 40px; width: 180px; margin-left: 0px; display: none; position: absolute; z-index: 1;
+}
+.menuprincipal_app ul li li {
+	line-height: 20px; padding-bottom: 0px; display: block;
+}
+.menuprincipal_app ul li:hover ul {
+	display: block;
+}
+.menuprincipal_app ul li ul li a {
+	margin: 0px; padding: 5px 10px; line-height: 20px; display: block;
+}
+.menuprincipal_app ul li ul li a:hover {
+	background: rgb(210, 220, 6);
+}
+.menuprincipal_app ul li {
+	padding-bottom: 3px; display: inline-block; position: relative;
+}
+.menuprincipal_app ul li.current {
+	padding-bottom: 0px;
+}
+.menuprincipal_app ul li:hover {
+	padding-bottom: 0px;
+}
+.menuprincipal_app ul li.current a {
+	padding-bottom: 0px; border-bottom-color: rgb(200, 210, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.menuprincipal_app ul li:hover a {
+	padding-bottom: 0px; border-bottom-color: rgb(200, 210, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.menuprincipal_app ul li .selected {
+	padding-bottom: 0px; border-bottom-color: rgb(200, 210, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.menuprincipal_app ul li a {
+	margin: 0px 10px; color: rgb(86, 86, 86); line-height: 40px; font-family: "fslolamedium"; font-size: 14px; display: block;
+}
+.menuprincipal_app ul li a:last-child {
+	margin-right: 0px;
+}
+.menuprincipal_app ul li ul li a {
+	border-width: 0px !important;
+}
+.menuprincipal_app ul li ul li a:hover {
+	border-width: 0px !important;
+}
+.menuprincipal {
+	top: 78px; right: 0px; font-size: 13px; position: absolute; z-index: 2;
+}
+.menuprincipal ul {
+	position: relative;
+}
+.menuprincipal ul li ul {
+	background: rgb(200, 210, 0); left: 10px; top: 40px; width: 180px; margin-left: 0px; display: none; position: absolute; z-index: 1;
+}
+.menuprincipal ul li li {
+	line-height: 20px; padding-bottom: 0px; display: block;
+}
+.menuprincipal ul li:hover ul {
+	display: block;
+}
+.menuprincipal ul li ul li a {
+	margin: 0px; padding: 5px 10px; line-height: 20px; display: block;
+}
+.menuprincipal ul li ul li a:hover {
+	background: rgb(210, 220, 6);
+}
+.menuprincipal ul li {
+	padding-bottom: 3px; display: inline-block; position: relative;
+}
+.menuprincipal ul li.current {
+	padding-bottom: 0px;
+}
+.menuprincipal ul li:hover {
+	padding-bottom: 0px;
+}
+.menuprincipal ul li.current a {
+	padding-bottom: 0px; border-bottom-color: rgb(200, 210, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.menuprincipal ul li:hover a {
+	padding-bottom: 0px; border-bottom-color: rgb(200, 210, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.menuprincipal ul li a.selected {
+	padding-bottom: 0px; border-bottom-color: rgb(200, 210, 0); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.menuprincipal ul li a {
+	margin: 0px 10px; color: rgb(86, 86, 86); line-height: 40px; font-family: "fslolamedium"; font-size: 14px; display: block;
+}
+.menuprincipal ul li a:last-child {
+	margin-right: 0px;
+}
+.menuprincipal ul li ul li a {
+	border-width: 0px !important;
+}
+.menuprincipal ul li ul li a:hover {
+	border-width: 0px !important;
+}
+#slideNews {
+	background: url("../images/bg-news-slide.png") no-repeat left rgb(219, 223, 223); top: 135px; width: 1003px; height: 48px; overflow: hidden; position: relative; z-index: 0;
+}
+#slideNews h3 {
+	margin: 5px 40px 5px 15px; line-height: 38px; font-family: "FSLolaBold"; font-size: 18px;
+}
+.caroufredsel_wrapper {
+	width: 990px !important;
+}
+#slideNews .caroufredsel_wrapper {
+	left: 155px !important; margin-top: 5px; position: absolute !important;
+}
+#slideNews h3 {
+	height: 38px; float: left; display: block;
+}
+#slideNews .caroufredsel_wrapper {
+	height: 38px; float: left; display: block;
+}
+#slideNews ul li {
+	height: 33px; margin-top: 15px; margin-right: 10px; display: inline-block;
+}
+#slideNews ul li .title {
+	color: rgb(86, 86, 86);
+}
+#slideNews ul li .title span.date {
+	color: rgb(99, 113, 0); font-weight: bold;
+}
+#slideNews .shadowBg {
+	background: url("../images/bg-shadow-news.png") repeat-y; top: 0px; width: 320px; height: 48px; right: -1px; display: block; position: absolute; z-index: 100;
+}
+.search {
+	background: rgb(200, 207, 208); padding: 10px; border: 2px solid white; top: 15px; width: 218px; height: 25px; right: 0px; overflow: hidden; position: absolute;
+}
+.search .champ {
+	background: white; margin: 0px; width: 102px; height: 23px; color: rgb(191, 191, 191); line-height: 23px; padding-left: 3px;
+}
+.search input {
+	background: none; font: 12px/normal arial; border: currentColor; width: 195px; color: rgb(86, 86, 86); font-size-adjust: none; font-stretch: normal;
+}
+.search .ok input {
+	background: url("../images/ico-search.png") no-repeat center rgb(200, 210, 0); margin: 0px; top: 1px; width: 21px; height: 21px; right: 1px; position: absolute; cursor: pointer; min-height: 21px; min-width: 21px;
+}
+.search a {
+	background: url("../images/ico-search.png") no-repeat center rgb(200, 210, 0); margin: 0px; top: 1px; width: 21px; height: 21px; right: 1px; position: absolute; cursor: pointer; min-height: 21px; min-width: 21px;
+}
+.search .form {
+	padding: 0px; width: 105px; position: relative;
+}
+.search a {
+	color: rgb(86, 86, 86); text-decoration: underline; display: inline-block;
+}
+.search .form {
+	color: rgb(86, 86, 86); text-decoration: underline; display: inline-block;
+}
+.conteurLeft {
+	background: white; width: 744px; margin-right: 16px; float: left;
+}
+.content {
+	padding: 15px;
+}
+.tabsContenur {
+	margin-bottom: 10px; position: relative;
+}
+.tabsContenur .tabs li {
+	background: rgb(213, 213, 213); margin-right: 1px; border-top-color: rgb(213, 213, 213); border-right-color: rgb(213, 213, 213); border-left-color: rgb(213, 213, 213); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; display: inline-block;
+}
+.tabsContenur .tabs li.ui-state-active {
+	background: rgb(255, 255, 255); font-weight: bold;
+}
+.tabsContenur .tabs li a {
+	padding: 5px 10px; color: rgb(86, 86, 86); line-height: 22px; display: block;
+}
+.tabsContenur .tabs li a:hover {
+	background: rgb(221, 221, 221);
+}
+#graphes .tabs li a:hover {
+	background: rgb(210, 220, 6);
+}
+.tabsContenur .tabs li.ui-state-active a {
+	background: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);
+}
+.tabsContenur .tabs li.ui-state-active a:hover {
+	background: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);
+}
+#graphes .tabs li.ui-state-active a {
+	background: rgb(234, 234, 234);
+}
+#graphes .tabs li.ui-state-active a:hover {
+	background: rgb(234, 234, 234);
+}
+#graphes .tabs li {
+	background: rgb(200, 210, 0); border-top-color: rgb(200, 210, 0); border-right-color: rgb(200, 210, 0); border-left-color: rgb(200, 210, 0); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+#graphes .tabs li.ui-state-active {
+	background: rgb(234, 234, 234); font-weight: bold;
+}
+.tabsContenur h4 {
+	width: 666px; text-align: center; font-size: 13px; margin-bottom: 10px; display: inline-block;
+}
+.tabsContenur .ui-tabs-panel {
+	padding: 10px; margin-top: -4px; margin-right: -5px; border-top-color: rgb(213, 213, 213); border-bottom-color: rgb(213, 213, 213); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#graphes .ui-tabs-panel {
+	background: rgb(234, 234, 234); padding: 10px; margin-top: -4px; border-top-color: rgb(200, 210, 0); border-bottom-color: rgb(200, 210, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.tabsContenur .caroufredsel_wrapper {
+	height: 32px !important; margin-left: 50px;
+}
+.tabsContenur .title {
+	margin: 0px; height: 33px; color: rgb(162, 170, 0); font-family: "FSLolaBold"; font-size: 18px; vertical-align: top; float: left;
+}
+.tabsContenur h3 {
+	left: 225px !important; display: inline-block;
+}
+.tabsContenur .caroufredsel_wrapper {
+	left: 225px !important; display: inline-block;
+}
+#graphes .next {
+	top: 7px; width: 15px; height: 15px; display: block; position: absolute;
+}
+#graphes .prev {
+	top: 7px; width: 15px; height: 15px; display: block; position: absolute;
+}
+#graphes .next span {
+	display: none;
+}
+#graphes .prev span {
+	display: none;
+}
+#graphes .next {
+	background: url("../images/ico-nav-next.png") no-repeat center; right: 10px;
+}
+#graphes .prev {
+	background: url("../images/ico-nav-prev.png") no-repeat center; left: 305px;
+}
+.conteneurRight {
+	width: 244px; float: left;
+}
+#news .ui-tabs-nav.tabs {
+	text-align: right;
+}
+#news .ui-tabs-panel {
+	padding: 10px 0px; margin-top: -1px;
+}
+.conteurLeft .list {
+	
+}
+.listCol-2 .item {
+	width: 350px; height: 360px; padding-top: 25px; padding-bottom: 20px; margin-right: 5px; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.list .date {
+	background: url("../images/bg-date.png") no-repeat 0px bottom rgb(86, 86, 86); padding: 5px 10px 10px; color: rgb(200, 210, 0);
+}
+.article .event .date {
+	background: url("../images/bg-date.png") no-repeat 0px bottom rgb(86, 86, 86); padding: 5px 10px 10px; color: rgb(200, 210, 0);
+}
+.listCol-2 .itemSmall {
+	border-color: rgb(244, 244, 244); padding: 10px 0px; height: 40px;
+}
+.itemSmall .date {
+	padding: 2px 5px; margin-right: 10px; background-image: none;
+}
+.itemSmall p {
+	margin: 0px; line-height: 20px;
+}
+.event img {
+	margin: 35px 0px 5px; clear: both;
+}
+.event .plus {
+	background: url("../images/ico-plus.png") no-repeat center rgb(200, 210, 0); padding: 5px 10px 3px; margin-left: 3px; display: none;
+}
+.itemSmall .plus {
+	background: url("../images/ico-link-suite.png") no-repeat center; padding-top: 0px; margin-left: 3px;
+}
+.suite {
+	background: url("../images/ico-link-suite.png") no-repeat right; color: rgb(162, 170, 0); padding-right: 10px; font-weight: bold; margin-top: 5px; margin-left: 3px; float: right;
+}
+.list h3 {
+	margin: 10px 0px; color: rgb(86, 86, 86); line-height: 26px; font-family: Calibri; font-size: 24px;
+}
+.article h3 {
+	margin: 10px 0px; color: rgb(86, 86, 86); line-height: 26px; font-family: Calibri; font-size: 24px;
+}
+.listCol-2 .desc {
+	font-size: 13px; margin-bottom: 20px;
+}
+.event .time {
+	font-size: 11px;
+}
+.bloc {
+	background: white; padding: 1px;
+}
+.bloc .titleBloc {
+	background: rgb(200, 210, 0); margin: 0px; padding: 15px; color: rgb(86, 86, 86); font-family: "FSLolaExtraBold"; font-size: 18px; position: relative;
+}
+.bloc .list a.title {
+	color: rgb(86, 86, 86);
+}
+.bloc .list {
+	
+}
+.bloc .list .title {
+	font-weight: bold; margin-bottom: 5px; display: block;
+}
+.bloc .list .plus {
+	background: url("../images/ico-link-suite.png") no-repeat center; padding: 0px 10px 3px; margin-left: 3px;
+}
+.bloc .list .item {
+	padding: 5px 0px; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.bloc .list p {
+	margin: 0px;
+}
+.bloc .titleBloc .plus {
+	background: url("../images/ico-plus.png") no-repeat center rgb(200, 210, 0); padding: 0px 5px; border: 1px solid rgb(86, 86, 86); top: 16px; height: 19px; right: 15px; margin-left: 3px; display: block; position: absolute;
+}
+.bloc .titleBloc .plus:hover {
+	border-color: rgb(138, 138, 138);
+}
+.bloc .calendarList {
+	padding: 0px;
+}
+.bloc .calendarList .date {
+	background: none; padding: 0px; font-weight: normal;
+}
+.bloc .calendarList .itemSmall {
+	padding: 10px 0px;
+}
+.bloc .calendarList .itemSmall a {
+	color: rgb(86, 86, 86); font-weight: bold;
+}
+.bloc .calendarList :last-child.itemSmall {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.BtnBloc {
+	background: url("../images/ico-calendar.png") no-repeat 210px rgb(200, 207, 208); margin: 1px; padding: 10px 40px 10px 10px; width: 190px; text-align: right; color: rgb(86, 86, 86); font-family: "FSLolaExtraBold"; font-size: 14px; display: block;
+}
+.BtnBloc:hover {
+	background-color: rgb(206, 214, 215);
+}
+.bloc .calendar {
+	padding: 15px 10px 0px;
+}
+.content a {
+	color: rgb(175, 184, 5);
+}
+.content .article p {
+	margin: 18px 0px 10px; line-height: 18px;
+}
+.article li {
+	background: url("../images/ico-link-plus.png") no-repeat left 10px; line-height: 25px; padding-left: 20px;
+}
+.article .event {
+	border: currentColor; padding-bottom: 0px;
+}
+.article .event .desc {
+	font-size: 12px; margin-bottom: 20px;
+}
+.content h2 {
+	font-family: FSLolaBold;
+}
+.article .event img {
+	margin-top: 10px;
+}
+.article .event h3 {
+	margin-top: 30px;
+}
+table {
+	margin: 0px 0px 20px; width: 100%; border-collapse: collapse; border-spacing: 0;
+}
+table th {
+	background: rgb(200, 210, 0); padding: 12px; border: currentColor; text-align: left; color: rgb(86, 86, 86); text-transform: uppercase;
+}
+table.table td {
+	padding: 12px; text-align: left; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+table tbody tr:nth-child(2n) {
+	background-color: rgb(247, 247, 247);
+}
+table tbody tr:nth-child(2n+1) {
+	background-color: white;
+}
+table td.highlight {
+	color: rgb(255, 255, 255); font-weight: 300;
+}
+.footer {
+	padding: 20px 0px; clear: both;
+}
+.copyright {
+	font-family: arial; font-size: 12px;
+}
+.conteur {
+	background: 0px 0px rgb(255, 255, 255);
+}
+tr.pagination {
+	background: none !important;
+}
+tr.pagination tr {
+	background: none !important;
+}
+tr.pagination td {
+	border: currentColor;
+}
+.pagination {
+	
+}
+.pagination td {
+	padding: 12px 2px;
+}
+.pagination table {
+	margin: 0px auto; width: auto;
+}
+.pagination a {
+	padding: 5px 8px; color: rgb(200, 210, 0) !important; text-decoration: none; background-color: rgb(86, 86, 86);
+}
+.pagination span {
+	padding: 5px 8px; color: rgb(86, 86, 86) !important; font-weight: bolder; background-color: rgb(200, 210, 0);
+}
+.pagination a:hover {
+	padding: 5px 8px; color: rgb(86, 86, 86) !important; font-weight: bolder; background-color: rgb(200, 210, 0);
+}
+.lnkSubmit {
+	font: bold 8pt/normal "verdana"; margin: 0px; padding: 0.6em 3em; border: 1px solid rgb(200, 210, 0); text-align: center; color: rgb(86, 86, 86) !important; letter-spacing: 0px; text-decoration: none !important; display: inline-block; font-size-adjust: none; font-stretch: normal; background-size: 16px 16px;
+}
+.lnkSubmit:hover {
+	color: rgb(86, 86, 86); background-color: rgb(200, 210, 0);
+}
+.selected.lnkSubmit {
+	color: rgb(86, 86, 86); background-color: rgb(200, 210, 0);
+}
+.lnkSubmitPopupExport {
+	background: url("../images/export.png") no-repeat left / 24px auto rgba(0, 0, 0, 0); border-width: 0px; font: bold 8pt/normal "tahoma"; padding: 6px; width: 101px; color: rgb(86, 86, 86); letter-spacing: 0px; text-decoration: none; margin-bottom: 0px; font-size-adjust: none; font-stretch: normal;
+}
+.lnkSubmitPopup {
+	background: url("../images/filter.png") no-repeat left / 23px auto rgba(0, 0, 0, 0); border-width: 0px; font: bold 8pt/normal "tahoma"; padding: 6px; width: 85px; color: rgb(86, 86, 86); letter-spacing: 0px; text-decoration: none; margin-top: -5px; margin-bottom: 0px; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.lnkSubmitOK {
+	background: url("../images/approve.png") no-repeat left / 23px auto rgba(0, 0, 0, 0); border-width: 0px; font: bold 8pt/normal "tahoma"; padding: 6px; width: 85px; color: rgb(86, 86, 86); letter-spacing: 0px; text-decoration: none; margin-top: -5px; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.lnkSubmitPopupClose {
+	background: url("../images/reset.png") no-repeat left / 20px auto rgba(0, 0, 0, 0); border-width: 0px; font: bold 8pt/normal "tahoma"; padding: 6px; width: 85px; color: rgb(86, 86, 86); letter-spacing: 0px; text-decoration: none; margin-top: -5px; margin-bottom: 0px; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.filtreDatePopup {
+	padding: 0px 5px; width: 40px; line-height: 25px; font-weight: bold; display: inline-block;
+}
+.lnkSubmitPopupExport:hover {
+	color: rgb(86, 86, 86); background-color: rgb(200, 210, 0);
+}
+.selected.lnkSubmitPopupExport {
+	color: rgb(86, 86, 86); background-color: rgb(200, 210, 0);
+}
+.lnkSubmitPopup:hover {
+	color: rgb(86, 86, 86); background-color: rgb(200, 210, 0);
+}
+.selected.lnkSubmitPopup {
+	color: rgb(86, 86, 86); background-color: rgb(200, 210, 0);
+}
+.lnkSubmitPopupClose:hover {
+	color: rgb(86, 86, 86); background-color: rgb(200, 210, 0);
+}
+.selected.lnkSubmitPopupClose {
+	color: rgb(86, 86, 86); background-color: rgb(200, 210, 0);
+}
+.dateCompair {
+	left: 8px; top: 8px; color: rgb(255, 0, 0); padding-top: 0px; font-weight: bold; margin-top: 0px; position: relative;
+}
+a.lnkSubmitExportExcel {
+	background: url("../images/excelexportGraph.png") no-repeat left;
+}
+a.lnkSubmitADD2 {
+	background: url("../images/addItem.png") no-repeat left / 24px; border: 1px solid rgb(62, 61, 64); color: rgb(86, 86, 86) !important;
+}
+a.lnkSubmitADD {
+	background: url("../images/addItem.png") no-repeat left / 24px;
+}
+a.lnkSubmitFavorite {
+	background: url("../images/favorite.png") no-repeat left / 24px;
+}
+a.lnkSubmitAddFavorite {
+	background: url("../images/add_favorites.png") no-repeat left / 24px;
+}
+a.lnkSubmitFilter {
+	background: url("../images/filter.png") no-repeat left / 23px;
+}
+a.lnkDeleteAll {
+	background: url("../images/DeleteAll.png") no-repeat left / 24px;
+}
+a.lnkSubmitReset {
+	background: url("../images/reset.png") no-repeat left / 20px;
+}
+a.lnkSubmitApprove {
+	background: url("../images/approve.png") no-repeat left / 20px;
+}
+a.lnkSubmitApprove2 {
+	background: url("../images/approve.png") no-repeat left / 20px; border: 1px solid rgb(62, 61, 64); color: rgb(86, 86, 86) !important;
+}
+a.lnkSubmitImport {
+	background: url("../images/import.png") no-repeat left / 20px;
+}
+a.lnkSubmitNew {
+	background: url("../images/new.png") no-repeat left / 20px;
+}
+a.lnkSubmitVerification {
+	background: url("../images/verification.png") no-repeat left / 20px;
+}
+a.lnkSubmitEnregistre {
+	background: url("../images/save.png") no-repeat left / 24px;
+}
+a.lnkSubmitUpdate {
+	background: url("../images/save.png") no-repeat left / 24px;
+}
+a.lnkSubmitArticles {
+	background: url("../images/SendArticle.png") no-repeat center / 24px;
+}
+a.lnkSubmitSupprimer {
+	background: url("../images/Delete.png") no-repeat left / 24px;
+}
+a.lnkSubmitCancel {
+	background: url("../images/cancel.png") no-repeat left / 20px;
+}
+a.lnkSubmitExport {
+	background: url("../images/export.png") no-repeat left;
+}
+a.lnkSubmitEdit {
+	background: url("../images/Edit.png") no-repeat left / 24px;
+}
+a.lnkSubmitAdd {
+	background: url("../images/addItem.png") no-repeat left / 24px;
+}
+.FooterTemple {
+	position: relative;
+}
+.ErrorFooter {
+	top: 36%; right: -7px; position: absolute;
+}
+.loader {
+	border: 1px solid black; left: 50%; top: 50%; width: 120px; height: 100px; text-align: center; color: black; margin-left: -60px; position: fixed; z-index: 10001; background-color: white;
+}
+* html .loader {
+	position: absolute;
+}
+.true.visible {
+	display: block !important; visibility: visible !important;
+}
+.None.visible {
+	display: none !important; visibility: hidden !important;
+}
+.form {
+	padding: 10px;
+}
+.form .line {
+	margin: 5px 0px; padding: 5px; width: 100%; overflow: hidden; display: block;
+}
+.line {
+	margin: 5px 0px; padding: 5px; width: 100%; overflow: hidden; display: block;
+}
+.form .lineLookup {
+	margin: 5px 0px; padding: 5px; width: 100%; overflow: hidden; display: block;
+}
+.form .lineLookup table {
+	width: 300px;
+}
+.form .lineLookup label {
+	width: 120px; float: left; display: block;
+}
+.form .line input {
+	padding: 1px 5px; width: 287px; height: 25px; float: left; display: block;
+}
+.form .line select {
+	padding: 1px 5px; width: 287px; height: 25px; float: left; display: block;
+}
+.form .line select {
+	width: 300px; height: 28px !important;
+}
+.form .line label {
+	width: 120px; float: left; display: block;
+}
+.form .lineLookup .dataPanel {
+	width: 300px; float: left; position: relative;
+}
+.form .formBtn.line {
+	padding: 2px 0px 0px; height: 34px; text-align: right;
+}
+.form .lineLookup .dataPanel .ErrorVal {
+	top: 2%; right: -20px; position: absolute;
+}
+.conteneur {
+	padding: 10px;
+}
+.right2 {
+	width: 50%; overflow: hidden; padding-top: 10px; float: left;
+}
+.gridPriceIndex {
+	margin-top: 20px;
+}
+.gridPriceIndex table td {
+	padding: 0px !important;
+}
+.gridPriceIndex input[type='text'] {
+	width: 32px;
+}
+.gridPriceIndex select {
+	width: 85px;
+}
+.spec {
+	padding: 0px; overflow: hidden; clear: both; margin-bottom: 20px; min-width: 750px;
+}
+.addGraph {
+	min-width: 350px;
+}
+.spec .line {
+	margin: 12px;
+}
+.spec .line label {
+	width: 100px; display: inline-block;
+}
+.spec .line input {
+	height: 23px; padding-left: 15px;
+}
+.spec .btnForm.line {
+	text-align: right; padding-top: 18px;
+}
+.spec .gridPriceIndex table td {
+	border: 1px solid rgb(229, 229, 229); text-align: center;
+}
+.popupHeader h3 {
+	text-align: left; color: rgb(86, 86, 86); line-height: 5px; padding-left: 13px; font-size: 18px; font-weight: normal;
+}
+.AddToFavorite .btnForm.line {
+	text-align: right; padding-right: 15px;
+}
+.AddToFavorite .line {
+	width: inherit; clear: both; display: block;
+}
+ul.ChoixTimeInterval li {
+	float: left;
+}
+.cols.line .col {
+	margin: 1%; width: 48%; float: left;
+}
+.btn {
+	background: url("../images/btnAddDelete.png") no-repeat; width: 24px; height: 24px; float: left; display: block;
+}
+.btnDel.btn {
+	background-position: -30px 0px;
+}
+.btnEdit.btn {
+	background: url("../images/btnEdit.png") no-repeat; width: 24px; height: 24px; display: block;
+}
+.validationsummary {
+	background: url("../Images/WarningHeader.gif") no-repeat 12px 30px; margin: 15px; padding: 0px; border: 1px solid rgb(176, 139, 52); width: 98%; font-size: 12px;
+}
+.validationheader {
+	padding: 7px 7px 0px; left: 0px; height: 14px; color: rgb(86, 48, 10); font-size: 11px; font-weight: bold; border-bottom-color: rgb(176, 139, 52); border-bottom-width: 1px; border-bottom-style: solid; position: relative; background-color: rgb(229, 217, 189);
+}
+.validationsummary ul {
+	list-style: none; margin: 5px 0px 10px; color: rgb(152, 43, 18); padding-top: 0px; padding-left: 45px; font-size: 11px; font-style: italic;
+}
+.validationsummary ul li {
+	background-position: 0px 3px; padding: 0px 0px 0px 15px; background-image: url("../Images/Warning.gif"); background-repeat: no-repeat;
+}
+.line.Graph {
+	text-align: center;
+}
+.line.Graph h1 {
+	margin: 0px auto; padding: 120px; border: 1px solid currentColor; width: 698px; height: 100px; text-align: center; vertical-align: middle;
+}
+#zz1_TopNavigationMenu a.popout {
+	padding-right: 0px !important; background-image: none !important;
+}
+.conteneurRight .ms-webpart-chrome {
+	background: 0px 0px rgb(255, 255, 255); padding: 1px; margin-bottom: 20px; box-shadow: 0px 0px 4px 2px #b2b2b2;
+}
+.conteneurRight .ms-webpart-chrome .ms-webpart-titleText {
+	background: 0px 0px rgb(200, 210, 0); margin: 0px; padding: 15px; color: rgb(86, 86, 86); font-family: "FSLolaExtraBold"; font-size: 18px; font-weight: normal; position: relative;
+}
+.conteneurRight .ms-webpart-chrome .ms-wpContentDivSpace {
+	padding: 15px;
+}
+.conteneurRight .ms-webpart-chrome .ms-ref-ctrl {
+	
+}
+.conteneurRight .ms-webpart-chrome .ms-ref-ctrl .ms-ref-refiner {
+	border-bottom-color: rgb(86, 86, 86); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.conteneurRight .ms-webpart-chrome .ms-ref-ctrl .ms-ref-refiner .ms-ref-refinername {
+	font-size: 12px; font-weight: bold;
+}
+.ms-srch-result-groups .ms-srch-hover-outerContainer {
+	left: 500px !important;
+}
+.ms-mpSearchBoxCMM {
+	width: 210px;
+}
+#searchInputBox {
+	background: rgb(255, 255, 255); position: relative;
+}
+.search .ms-srch-sb input {
+	height: 23px;
+}
+.ms-srch-sb-searchImg {
+	display: none;
+}
+.fc-button-prev {
+	background: url("datepicker/ico-arrowLeft.png") no-repeat center; width: 19px; height: 19px; display: block;
+}
+.fc-button-next {
+	background: url("datepicker/ico-arrowRight.png") no-repeat center; width: 19px; height: 19px; display: block;
+}
+.ms-srch-item-summary .ms-srch-item-highlightedText {
+	background: rgb(255, 239, 0); padding: 1px 2px;
+}
+.fc-header-title > h2 {
+	margin: 0px 2.3em; text-align: center; color: rgb(245, 245, 245); text-transform: uppercase; line-height: 1.8em; font-size: 11px;
+}
+.outlookButton.BtnBloc {
+	background: url("../images/outlook_btn.png") no-repeat 210px rgb(200, 207, 208); margin: 1px; padding: 10px 40px 10px 10px; left: -15px; width: 190px; text-align: right; bottom: -15px; color: rgb(86, 86, 86); font-family: "FSLolaExtraBold"; font-size: 14px; display: block; position: relative;
+}
+#suiteBar {
+	background: rgb(86, 86, 86); width: 100%; display: block;
+}
+#suiteBar #suiteBarLeft {
+	display: none; visibility: hidden;
+}
+#suiteBar #suiteBarRight {
+	background: none; float: right;
+}
+.ms-welcome-root > .ms-core-menu-root {
+	color: rgb(255, 255, 255);
+}
+.ms-signInLink {
+	color: rgb(255, 255, 255);
+}
+.ms-welcome-hover > .ms-core-menu-root {
+	color: rgb(255, 255, 255);
+}
+.ms-signInLink:hover {
+	color: rgb(86, 86, 86);
+}
+.ms-welcome-hover {
+	background: none; border-right-color: transparent;
+}
+.ms-siteactions-hover {
+	background: none; border-right-color: transparent;
+}
+#suiteBar #suiteBarRight #suiteBarButtons {
+	
+}
+.masterLinkCtrImages {
+	margin: 5px auto; height: 25px; clear: both;
+}
+.ms-siteactions-root > span > .ms-core-menu-root {
+	padding: 8px 7px 6px 0px; width: auto; height: 16px;
+}
+.ms-siteactions-imgspan {
+	width: auto; height: auto; color: rgb(200, 210, 0); text-transform: uppercase;
+}
+.ms-siteactions-imgspan .picto {
+	width: 11px; padding-left: 10px; border-left-color: rgb(181, 185, 0); border-left-width: 1px; border-left-style: solid;
+}
+.disconnect .picto {
+	width: 11px; padding-left: 10px; border-left-color: rgb(181, 185, 0); border-left-width: 1px; border-left-style: solid;
+}
+.ms-siteactions-imgspan .textPicto {
+	padding: 0px 4px;
+}
+.disconnect .textPicto {
+	padding: 0px 4px;
+}
+.ms-siteactions-imgspan {
+	width: auto; height: auto; color: rgb(200, 210, 0); text-transform: uppercase; font-family: arial; font-weight: 600;
+}
+.disconnect {
+	width: auto; height: auto; color: rgb(200, 210, 0); text-transform: uppercase; font-family: arial; font-weight: 600;
+}
+.ms-webpart-titleText.ms-webpart-titleText {
+	font-family: "FSLolaBold"; font-size: 20px;
+}
+.ms-webpart-titleText > a {
+	font-family: "FSLolaBold"; font-size: 20px;
+}
+.ms-listviewtable .ms-vhltr.ms-viewheadertr th {
+	background: none; color: rgb(0, 0, 0);
+}
+.ms-listviewtable .ms-vhltr.ms-viewheadertr th a.ms-headerSortTitleLink {
+	color: rgb(0, 0, 0); font-size: 11px; font-weight: 600;
+}
+table.ms-listviewtable {
+	border-collapse: collapse; border-spacing: 0;
+}
+table.ms-listviewtable thead {
+	border-bottom-color: rgb(191, 191, 191); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ms-listviewtable tbody[id*='titl'] tr td {
+	padding: 10px 0px !important; display: block;
+}
+.ms-listviewtable tbody[id*='tbod'] tr:last-child td {
+	border-bottom-color: rgb(191, 191, 191); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ms-vb-imgFirstCell.ms-vb-imgFirstCell.ms-vb-imgFirstCell {
+	border-width: 0px; padding: 0px;
+}
+.ms-gb {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+table.ms-listviewtable > td {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+div.ms-cui-TabRowRight {
+	display: none; visibility: hidden;
+}
+.ms-srch-result-groups {
+	margin-bottom: 0px !important;
+}
+.excelButton {
+	background: url("../images/excelexportGraph.png") no-repeat 0px 0px rgba(0, 0, 0, 0); width: 16px; height: 16px; margin-right: 10px; float: right;
+}
